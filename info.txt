@@ -1,0 +1,23 @@
+
+
+# Table info
+
+Users
+    (id int, name text, mail text, hash text, salt text, lkarma int, ckarma text)
+    (id, name, mail, hash, salt, lkarma, ckarma)
+
+    
+Posts
+    (id int, poster int, title text, self boolean, body text, vtable text)
+    (id, poster, title, self, body, vtable)
+
+    Votes
+        (user int, vote boolean)
+        (user, vote)
+
+
+Comments
+*todo*
+
+subfries
+*todo*
